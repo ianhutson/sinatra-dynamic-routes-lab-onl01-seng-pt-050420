@@ -11,7 +11,8 @@ get '/square/:number' do
   num * num
 end
 
-get ''
+get '/say/:number/:phrase' do
+  
 
 
 end
