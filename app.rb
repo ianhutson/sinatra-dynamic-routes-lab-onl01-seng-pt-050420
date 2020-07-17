@@ -7,5 +7,5 @@ get '/reversename/:name' do
 end
 
 get '/square/:number' do
-  params[:number] x params[number]
+  params[:number] x params[:number]
 end
