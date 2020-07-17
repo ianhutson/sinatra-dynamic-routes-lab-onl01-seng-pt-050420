@@ -9,3 +9,4 @@ end
 get '/square/:number' do
   params[:number] x params[:number]
 end
+end
