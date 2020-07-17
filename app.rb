@@ -7,7 +7,8 @@ get '/reversename/:name' do
 end
 
 get '/square/:number' do
-  params[:number] x params[:number]
+  num = params[:number].to_i
+  num * num
 end
 
 get ''
