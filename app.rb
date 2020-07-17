@@ -11,7 +11,7 @@ get '/square/:number' do
   num * num
 end
 
-get '/say/:number/:phrase' do
+
   get '/say/:number/:phrase' do
     answer = ''
 
@@ -44,5 +44,4 @@ get '/say/:number/:phrase' do
     end
   end
 
-end
 end
